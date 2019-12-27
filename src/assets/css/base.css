@@ -1,15 +1,11 @@
-@import "normalize.css";
+@import "./normalize.css";
 
-:root {/*函数样式*/
-  /*低亮*/
+/*:root -> 获取根元素html*/
+:root {
   --color-text: #666;
-  /*高亮*/
   --color-high-text: #ff5777;
-  /*导航栏样式*/
   --color-tint: #ff8198;
-  /*整体样式*/
   --color-background: #fff;
-  /*字体*/
   --font-size: 14px;
   --line-height: 1.5;
 }
@@ -58,3 +54,4 @@ a {
 .right {
   float: right;
 }
+
